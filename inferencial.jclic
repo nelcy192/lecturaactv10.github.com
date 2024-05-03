@@ -1,0 +1,455 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<JClicProject name="inferencial" version="0.1.3">
+ <settings>
+  <title>inferencial</title>
+  <revision description="created" date="5/2/24" />
+  <descriptors />
+  <meta_langs>es</meta_langs>
+  <descriptions>
+   <description language="es" />
+  </descriptions>
+  <license type="by-nc-sa" url="https://creativecommons.org/licenses/by-nc-sa/4.0" />
+ </settings>
+ <sequence>
+  <item id="start" name="actividad 1" />
+  <item name="Actividad 2" />
+  <item name="Actividad 3" />
+ </sequence>
+ <activities>
+  <activity class="@panels.Identify" name="actividad 1" code="">
+   <description />
+   <messages>
+    <cell type="initial">
+     <style>
+      <font family="Times New Roman" size="17" bold="true" />
+      <color foreground="0x006666" background="0xFF9999" />
+     </style>
+     <p>Lee el cuento "El agutí y el ciervo" y realiza la actividad relacionando el contenido de cada casilla para responder las preguntas que aparecen con las imagenes.</p>
+    </cell>
+    <cell type="final">
+     <style>
+      <font family="Times New Roman" size="17" bold="true" />
+      <color foreground="0x006600" background="0xFF9999" />
+     </style>
+     <p>Felicidades terminaste la actividad. Recuerda compartir con tu clase que actividaddes se pueden hacer para cuidar la flora y fauna en tu territorio.</p>
+    </cell>
+   </messages>
+   <settings margin="8" report="true" reportActions="false">
+    <container bgColor="0xC0C0C0">
+     <image name="cuselv.png" tiled="true" />
+     <counters time="true" actions="true" score="true" />
+    </container>
+    <window bgColor="0xC0C0C0" transparent="true" border="true" />
+   </settings>
+   <cells rows="2" cols="3" cellWidth="201.0" cellHeight="77.0" border="true" id="primary">
+    <style />
+    <shaper class="@Rectangular" cols="3" rows="2" />
+    <cell id="1" imgAlign="right,middle" avoidOverlapping="true" image="cier.png">
+     <style borderStroke="0.7" markerStroke="5.0">
+      <font family="Times New Roman" size="17" />
+      <color foreground="0x993300" background="0xFFCC99" />
+     </style>
+     <p>¿Qué le pasa a Dick el ciervo en la historia?</p>
+    </cell>
+    <cell id="1" imgAlign="right,middle" avoidOverlapping="true" image="LATIR.png">
+     <style borderStroke="0.7" markerStroke="5.0">
+      <font family="Times New Roman" size="17" />
+      <color foreground="0x993300" background="0xFFCC99" />
+     </style>
+     <p>El hombre cuenta que en su infancia le gustaba ir de cacería. ¿a que conclusión llega al final de la historia?</p>
+    </cell>
+    <cell id="1" imgAlign="right,middle" avoidOverlapping="true" image="ITAG.png">
+     <style borderStroke="0.7" markerStroke="5.0">
+      <font family="Times New Roman" size="17" />
+      <color foreground="0x993300" background="0xFFCC99" />
+     </style>
+     <p>"El agutí y el ciervo"</p>
+    </cell>
+    <cell id="1">
+     <style borderStroke="0.7" markerStroke="5.0">
+      <font family="Times New Roman" size="17" />
+      <color foreground="0x993300" background="0xFFCC99" />
+     </style>
+     <p>El hombre concluye la historia con su reflexión sobre respetar la vida de los seres vivos y cuidar su hogar.  "Recordé mis cacerías de muchacho,¡Ah! ¡Es cosa fácil quitar cachorros a sus madres!". </p>
+    </cell>
+    <cell id="1" imgAlign="right,middle">
+     <style borderStroke="0.7" markerStroke="5.0">
+      <font family="Times New Roman" size="17" />
+      <color foreground="0x993300" background="0xFFCC99" />
+     </style>
+     <p>Dick fue un ciervo que vivía en la selva y fue llevado al pueblo dónde se refugió en un parque que le recordaba a su hogar y finalmente muere a causa de la cacería.</p>
+    </cell>
+    <cell id="1">
+     <style borderStroke="0.7" markerStroke="5.0">
+      <font family="Times New Roman" size="17" />
+      <color foreground="0x993300" background="0xFFCC99" />
+     </style>
+     <p>Cuenta la historia de un hombre amante a la cacería que un día toma como mascota a un ciervo al cual le toma cariño, el ciervo muere a causa de la cacería y el hombre en medio de su dolor comprende la importancia de respetar la vida de cada ser vivo y no sacarlos de su hábitat.</p>
+    </cell>
+   </cells>
+   <scramble times="31" primary="true" />
+  </activity>
+  <activity class="@text.Identify" name="Actividad 2" code="" type="identifyWords">
+   <description />
+   <messages>
+    <cell imgAlign="right,middle" avoidOverlapping="true" image="ana.png" type="previous">
+     <style>
+      <font family="Times New Roman" size="17" bold="true" />
+      <color foreground="0x666600" background="0xCCFFCC" />
+     </style>
+     <p>Lee el fragmento del cuento "Anaconda" y realiza la actividad.</p>
+    </cell>
+    <cell imgAlign="right,middle" avoidOverlapping="true" image="ana.png" type="initial">
+     <style>
+      <font family="Times New Roman" size="17" bold="true" />
+      <color foreground="0x663300" background="0xCCFFCC" />
+     </style>
+     <p>Luego de leer el fragmento anterior sobre el cuento "Anaconda" señala las palabras que estan en otro color.</p>
+    </cell>
+    <cell type="final">
+     <style>
+      <font family="Times New Roman" size="17" bold="true" />
+      <color foreground="0x3366FF" background="0x99FF99" />
+     </style>
+     <p>Felicidades por terminar la actividad. Consulta con tu clase si existen otros métodos para desarrollar antídotos contra venenos de las serpientes u otros animales salvajes.</p>
+    </cell>
+   </messages>
+   <settings margin="8" report="true" reportActions="false">
+    <container bgColor="0xC0C0C0">
+     <image name="ana.png" tiled="true" />
+     <counters time="true" actions="true" score="true" />
+    </container>
+    <window bgColor="0xC0C0C0" transparent="true" border="true">
+     <size width="400" height="386" />
+    </window>
+   </settings>
+   <checkButton>Evaluación</checkButton>
+   <prevScreen maxTime="20" />
+   <document>
+    <style name="targetError" base="target" foreground="0xCC00CC" />
+    <style name="target" base="default" foreground="0x009900" target="true" />
+    <style name="default" family="Times New Roman" background="0xFFFFFF" size="14" bold="true" italic="false" foreground="0x0099FF" tabWidth="12" />
+    <section>
+     <p family="Arial" background="0xFFFFFF">
+      <cell imgAlign="right,middle" avoidOverlapping="true" width="128" height="42" border="true" image="ana.png">
+       <style>
+        <font family="Times New Roman" size="16" bold="true" />
+        <color foreground="0x006600" background="0xFFFFFF" border="0xFFFFFF" />
+       </style>
+       <p>Anaconda</p>
+      </cell>
+     </p>
+     <p family="Arial" background="0xFFFFFF">
+      <text family="Times New Roman" background="0xFFFFFF" size="14" bold="true" italic="false" foreground="0x3399FF">En una noche oscura y tempestuosa, </text>
+      <target>Cruzada,</target>
+      <text family="Times New Roman" background="0xFFFFFF" size="14" bold="true" italic="false" foreground="0x3399FF"> una grande y </text>
+     </p>
+     <p family="Arial" background="0xFFFFFF">
+      <text family="Times New Roman" background="0xFFFFFF" size="14" bold="true" italic="false" foreground="0x3399FF">hermosa </text>
+      <target>víbora</target>
+      <text family="Times New Roman" background="0xFFFFFF" size="14" bold="true" italic="false" foreground="0x3399FF"> de la cruz, avanzaba por un sendero del monte. La yarará </text>
+     </p>
+     <p family="Arial" background="0xFFFFFF">
+      <text family="Times New Roman" background="0xFFFFFF" size="14" bold="true" italic="false" foreground="0x3399FF">iba de caza. </text>
+     </p>
+     <p family="Arial" background="0xFFFFFF">
+      <text family="Times New Roman" background="0xFFFFFF" size="14" bold="true" italic="false" foreground="0x3399FF">¡Un </text>
+      <target>hombre!</target>
+      <text family="Times New Roman" background="0xFFFFFF" size="14" bold="true" italic="false" foreground="0x3399FF"> Preciso es concebir por un momento las ideas de un </text>
+     </p>
+     <p family="Arial" background="0xFFFFFF">
+      <text family="Times New Roman" background="0xFFFFFF" size="14" bold="true" italic="false" foreground="0x3399FF">animal salvaje y, particularmente, las de una </text>
+      <target>víbora,</target>
+      <text family="Times New Roman" background="0xFFFFFF" size="14" bold="true" italic="false" foreground="0x3399FF"> para apreciar lo que </text>
+     </p>
+     <p family="Arial" background="0xFFFFFF">
+      <text family="Times New Roman" background="0xFFFFFF" size="14" bold="true" italic="false" foreground="0x3399FF">esta palabra, </text>
+      <target>«hombre»,</target>
+      <text family="Times New Roman" background="0xFFFFFF" size="14" bold="true" italic="false" foreground="0x3399FF"> significaba para los habitantes de la selva.</text>
+     </p>
+     <p family="Arial" background="0xFFFFFF">
+      <text family="Times New Roman" background="0xFFFFFF" size="14" bold="true" italic="false" foreground="0x3399FF">Desde el momento en que él se instalaba allí, un </text>
+     </p>
+     <p family="Arial" background="0xFFFFFF">
+      <text family="Times New Roman" background="0xFFFFFF" size="14" bold="true" italic="false" foreground="0x3399FF">terrible peligro se cernía sobre los animales salvajes. </text>
+     </p>
+     <p family="Arial" background="0xFFFFFF">
+      <text family="Times New Roman" background="0xFFFFFF" size="14" bold="true" italic="false" foreground="0x3399FF">Las </text>
+      <target>serpientes</target>
+      <text family="Times New Roman" background="0xFFFFFF" size="14" bold="true" italic="false" foreground="0x3399FF"> eran, sin embargo, las que más deberían sufrir, en razón </text>
+     </p>
+     <p family="Arial" background="0xFFFFFF">
+      <text family="Times New Roman" background="0xFFFFFF" size="14" bold="true" italic="false" foreground="0x3399FF">de la eterna y sangrienta enemistad que reina entre </text>
+      <target>hombres</target>
+      <text family="Times New Roman" background="0xFFFFFF" size="14" bold="true" italic="false" foreground="0x3399FF"> y </text>
+      <target>víboras.</target>
+      <text family="Times New Roman" background="0xFFFFFF" size="14" bold="true" italic="false" foreground="0x3399FF"> El </text>
+     </p>
+     <p family="Arial" background="0xFFFFFF">
+      <text family="Times New Roman" background="0xFFFFFF" size="14" bold="true" italic="false" foreground="0x3399FF">peligro era gravísimo.</text>
+     </p>
+     <p family="Arial" background="0xFFFFFF">
+      <target>Cruzada</target>
+      <text family="Times New Roman" background="0xFFFFFF" size="14" bold="true" italic="false" foreground="0x3399FF"> acababa de resolver el sacrificio de su vida, ofreciéndose </text>
+     </p>
+     <p family="Arial" background="0xFFFFFF">
+      <text family="Times New Roman" background="0xFFFFFF" size="14" bold="true" italic="false" foreground="0x3399FF">a ir en pleno día al encuentro de los </text>
+      <target>hombres</target>
+      <text family="Times New Roman" background="0xFFFFFF" size="14" bold="true" italic="false" foreground="0x3399FF"> y a ser muerta, como era lo </text>
+     </p>
+     <p family="Arial" background="0xFFFFFF">
+      <text family="Times New Roman" background="0xFFFFFF" size="14" bold="true" italic="false" foreground="0x3399FF">más probable.</text>
+     </p>
+     <p family="Arial" background="0xFFFFFF">
+      <text family="Times New Roman" background="0xFFFFFF" size="14" bold="true" italic="false" foreground="0x3399FF">Pero no fue muerta sino cazada con una lazo corredizo por un </text>
+     </p>
+     <p family="Arial" background="0xFFFFFF">
+      <target>hombre</target>
+      <text family="Times New Roman" background="0xFFFFFF" size="14" bold="true" italic="false"> que, acompañado por tres negros, la había descubierto en el </text>
+     </p>
+     <p family="Arial" background="0xFFFFFF">
+      <text family="Times New Roman" background="0xFFFFFF" size="14" bold="true" italic="false">umbral del chalet.</text>
+     </p>
+     <p family="Arial" background="0xFFFFFF">
+      <text family="Times New Roman" background="0xFFFFFF" size="14" bold="true" italic="false">En una jaula más pequeña, </text>
+     </p>
+     <p family="Arial" background="0xFFFFFF">
+      <target>Cruzada</target>
+      <text family="Times New Roman" background="0xFFFFFF" size="14" bold="true" italic="false"> vio una enorme </text>
+      <target>víbora</target>
+      <text family="Times New Roman" background="0xFFFFFF" size="14" bold="true" italic="false"> con el cuello monstruosamente hinchado, </text>
+     </p>
+     <p family="Arial" background="0xFFFFFF">
+      <text family="Times New Roman" background="0xFFFFFF" size="14" bold="true" italic="false">que le habló así: −¡Óyeme, pequeña yarará! Tú no me conoces. Mi patria está muy lejos de aquí, en el cotinente asiático, en la India.</text>
+     </p>
+     <p family="Arial" background="0xFFFFFF">
+      <text family="Times New Roman" background="0xFFFFFF" size="14" bold="true" italic="false">¿Sabes lo que hacemos nosotras aquí y por qué te han hecho prisionera en </text>
+     </p>
+     <p family="Arial" background="0xFFFFFF">
+      <text family="Times New Roman" background="0xFFFFFF" size="14" bold="true" italic="false">vez de matarte? Te lo voy a decir: estamos aquí para que los </text>
+      <target>hombres</target>
+      <text family="Times New Roman" background="0xFFFFFF" size="14" bold="true" italic="false"> del </text>
+     </p>
+     <p family="Arial" background="0xFFFFFF">
+      <text family="Times New Roman" background="0xFFFFFF" size="14" bold="true" italic="false">chalet, sabios naturalistas, nos extraigan el veneno cada quince o veinte </text>
+     </p>
+     <p family="Arial" background="0xFFFFFF">
+      <text family="Times New Roman" background="0xFFFFFF" size="14" bold="true" italic="false">días, para preparar luego con él un suero contra nuestras mordeduras. </text>
+     </p>
+    </section>
+   </document>
+  </activity>
+  <activity class="@text.FillInBlanks" name="Actividad 3" code="" autoJump="true" forceOkToAdvance="true">
+   <description />
+   <messages>
+    <cell imgAlign="right,middle" avoidOverlapping="true" image="gom.png" type="initial">
+     <style>
+      <font family="Times New Roman" size="18" bold="true" />
+      <color foreground="0x009900" background="0xFFFF33" />
+     </style>
+     <p>Lee el cuento "La gama ciega" del libro "Cuentos de la selva" y completa el texto.</p>
+    </cell>
+    <cell imgAlign="right,middle" avoidOverlapping="true" image="cuid.png" type="final">
+     <style>
+      <font family="Times New Roman" size="18" bold="true" />
+      <color foreground="0x006600" background="0xCC99FF" />
+     </style>
+     <p>Felicidades por terminar la actividad. En clase comparte que actividades se pueden proponer en tu comunidad, para el cuidado de los animales enfermos.</p>
+    </cell>
+   </messages>
+   <settings margin="8" report="true" reportActions="false">
+    <container bgColor="0xC0C0C0">
+     <image name="cuselv.png" tiled="true" />
+     <counters time="true" actions="true" score="true" />
+    </container>
+    <window bgColor="0xC0C0C0" border="true">
+     <size width="400" height="475" />
+    </window>
+   </settings>
+   <checkButton>Evaluación</checkButton>
+   <document>
+    <style name="targetError" base="target" foreground="0x669900" />
+    <style name="target" base="default" foreground="0xCCCC00" target="true" />
+    <style name="default" family="Times New Roman" background="0xFFFFFF" size="14" bold="true" italic="false" tabWidth="12" foreground="0x6666FF" />
+    <section>
+     <p>
+      <cell imgAlign="right,middle" avoidOverlapping="true" width="154" height="40" image="gom.png">
+       <style>
+        <font family="Times New Roman" size="24" bold="true" />
+        <color foreground="0xFF6633" background="0xFFFFFF" />
+       </style>
+       <p>La gama ciega</p>
+      </cell>
+     </p>
+     <p />
+     <p>
+      <text>Había una vez un venado −</text>
+      <target>
+       <answer>una gama</answer>
+       <optionList>
+        <option>una lechuza</option>
+        <option>una mujer</option>
+        <option>una gama</option>
+       </optionList>
+       <text>una gama</text>
+      </target>
+      <text>− que tuvo dos hijos </text>
+     </p>
+     <p>
+      <text>mellizos, cosa rara entre los venados.</text>
+     </p>
+     <p />
+     <p>
+      <text>Una tarde, sin embargo, mientras la gamita recorría el monte comiendo las hojitas tiernas, vio de pronto ante ella, en el hueco de un árbol que estaba </text>
+     </p>
+     <p>
+      <text>podrido, muchas bolitas juntas que colgaban.</text>
+     </p>
+     <p />
+     <p>
+      <text>−</text>
+      <target>
+       <answer>Ten mucho cuidado</answer>
+       <optionList>
+        <option>Ten mucho cuidado</option>
+        <option>Con mucho cuidado</option>
+        <option>Cuidado</option>
+       </optionList>
+       <text>Ten mucho cuidado</text>
+      </target>
+      <text>, mi hija −le dijo− con los nidos de abejas.</text>
+     </p>
+     <p>
+      <text>Esta vez el nido tenía abejas oscuras, con una fajita </text>
+     </p>
+     <p>
+      <text>amarilla en la cintura, que caminaban por encima del </text>
+     </p>
+     <p>
+      <text>nido.</text>
+     </p>
+     <p />
+     <p>
+      <text>Salieron enseguida </text>
+      <target>
+       <answer>cientos de avispas</answer>
+       <optionList>
+        <option>cincuenta de avispas</option>
+        <option>cientos de avispas</option>
+        <option>muchas avispas</option>
+       </optionList>
+       <text>cientos de avispas</text>
+      </target>
+      <text>, miles </text>
+     </p>
+     <p>
+      <text>de avispas que la picaron en todo el cuerpo, le llenaron </text>
+     </p>
+     <p>
+      <text>todo el cuerpo de picaduras, en la cabeza, en la barriga, </text>
+     </p>
+     <p>
+      <text>en la cola; y lo que es mucho peor, en los mismos ojos. </text>
+     </p>
+     <p>
+      <text>La picaron más de diez </text>
+      <target>
+       <answer>en los ojos</answer>
+       <optionList>
+        <option>en las orejas</option>
+        <option>sobre las orejas</option>
+        <option>en los ojos</option>
+       </optionList>
+       <text>en los ojos</text>
+      </target>
+      <text>.</text>
+     </p>
+     <p />
+     <p>
+      <text>Su madre, que había salido a buscarla, porque tardaba mucho, la </text>
+     </p>
+     <p>
+      <text>halló al fin, y se desesperó también con su gamita que </text>
+      <target>
+       <answer>estaba ciega</answer>
+       <optionList>
+        <option>estaba con dolor</option>
+        <option>estaba coja</option>
+        <option>estaba ciega</option>
+       </optionList>
+       <text>estaba ciega</text>
+      </target>
+      <text>.</text>
+     </p>
+     <p>
+      <text> ¿Qué remedios podía hacerle ella? Ella sabía bien que en el </text>
+     </p>
+     <p>
+      <text>pueblo que estaba del otro lado del monte vivía un hombre que tenía </text>
+     </p>
+     <p>
+      <text>remedios. El hombre era cazador, y cazaba también venados, pero era un </text>
+     </p>
+     <p>
+      <text>hombre bueno.</text>
+     </p>
+     <p />
+     <p>
+      <text>−¡</text>
+      <target>
+       <answer>Ah, ah</answer>
+       <optionList>
+        <option>¿Qué es eso?</option>
+        <option>Ah, ah</option>
+        <option>¡No, no !</option>
+       </optionList>
+       <text>Ah, ah</text>
+      </target>
+      <text>! −dijo el hombre, abriendo la puerta−. ¿Qué pasa? </text>
+     </p>
+     <p>
+      <text>−Venimos para que cure a mi hija, la gamita, que está ciega−. </text>
+     </p>
+     <p>
+      <text>Y contó al cazador toda la historia de las abejas.</text>
+     </p>
+     <p />
+     <p>
+      <text>−Esto no es gran cosa −dijo por fin el cazador, ayudando a bajar a la </text>
+     </p>
+     <p>
+      <text>gamita−. Pero hay que tener mucha paciencia. Póngale </text>
+      <target>
+       <answer>esta pomada</answer>
+       <optionList>
+        <option>esta cobija</option>
+        <option>este suero</option>
+        <option>esta pomada</option>
+       </optionList>
+       <text>esta pomada</text>
+      </target>
+      <text> en </text>
+     </p>
+     <p>
+      <text>los ojos todas las noches, y téngale veinte días en la oscuridad. Después </text>
+     </p>
+     <p>
+      <text>póngale estos lentes amarillos, y se curará. </text>
+     </p>
+     <p />
+    </section>
+   </document>
+   <evaluator class="@ComplexEvaluator" checkCase="true" checkSteps="6" />
+  </activity>
+ </activities>
+ <mediaBag>
+  <media name="ana.png" file="ana.png" />
+  <media name="cier.png" file="cier.png" />
+  <media name="cuid.png" file="cuid.png" />
+  <media name="cuselv.png" file="cuselv.png" />
+  <media name="gom.png" file="gom.png" />
+  <media name="ITAG.png" file="itag.png" />
+  <media name="LATIR.png" file="latir.png" />
+ </mediaBag>
+</JClicProject>
+
